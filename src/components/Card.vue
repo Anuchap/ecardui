@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h4>{{name}}</h4>
+  <div class="card text-center">
     <img :src="'images/cards/' + src" :title="name" />
+    <label>{{name}}</label>
   </div>
 </template>
 
@@ -11,9 +11,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 img {
-  width: 100px;
+  width: 150px;
+  margin-top: 5px;
+}
+
+.card {
+  width: 160px;
+  float: left;
 }
 </style>
 

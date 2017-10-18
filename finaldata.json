@@ -1,0 +1,43 @@
+{
+    "card": {
+        "cardId": 1,
+        "name": "HAPPY BIRTHDAY",
+        "description": "",
+        "imagePath": "hbd01.jpg"
+    },
+    "fromName": "asdasd",
+    "fromEmail": "asd",
+    "fromTel": "asd",
+    "fromAddress": "asd",
+    "toName": "asd",
+    "toEmail": "asd",
+    "toTel": "asd",
+    "toAddress": "asdas",
+    "message": "dasdasd",
+    "packages": [
+        {
+            "packageId": 3,
+            "name": "Healty Life Program for women",
+            "description": null,
+            "price": 7800,
+            "packageTypeId": 2,
+            "checked": true
+        },
+        {
+            "packageId": 5,
+            "name": "Healty Life Program for men",
+            "description": null,
+            "price": 4800,
+            "packageTypeId": 4,
+            "checked": true
+        },
+        {
+            "packageId": 1,
+            "name": "Healty Life Program for women",
+            "description": null,
+            "price": 5800,
+            "packageTypeId": 1,
+            "checked": true
+        }
+    ]
+}
